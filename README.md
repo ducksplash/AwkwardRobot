@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=DGl8kiGCFSI
 Some early screens:
 
 
-![Title Screen](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg)
+![Title Screen](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg =250x250)
 ![Level 1](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/1.jpg)
 ![Level 2](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/2.jpg)
 ![Level 3](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/3.jpg)
