@@ -49,11 +49,6 @@ public class PauseMenu : MonoBehaviour
 	
 	
 	
-	
-	
-	
-	
-	
 	void OnTriggerEnter2D(Collider2D other)
 	{ 
 		if (other.name.Contains("Player"))
@@ -63,14 +58,6 @@ public class PauseMenu : MonoBehaviour
 		}
 	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

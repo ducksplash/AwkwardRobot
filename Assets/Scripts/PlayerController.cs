@@ -104,23 +104,13 @@ public class PlayerController : MonoBehaviour,IDragHandler, IPointerUpHandler, I
 
 
 
-
-
-
-    void FixedUpdate()
-    {
-
-
-    }
-	
 	
 	
 	void Update()
 	{
 		speed = PlayerStats.PLAYER_SELECTEDSPEED;
 		
-		fluffPlayer();
-		Move();
+
 		
 	    CheckIfGrounded();	
 		if (Input.GetButtonDown("Jump"))
@@ -128,8 +118,20 @@ public class PlayerController : MonoBehaviour,IDragHandler, IPointerUpHandler, I
 			Jump();
 		}
 		
-		
 	}
+
+
+
+
+
+    void FixedUpdate()
+    {
+		
+		fluffPlayer();
+		Move();
+    }
+	
+
 	
 	void fluffPlayer()
 	{
