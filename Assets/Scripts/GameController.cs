@@ -23,25 +23,6 @@ public class GameController : MonoBehaviour {
 		
 	}
 	
-	
-	private void bump(GameObject thisBlock)
-	{
-
-		   //thisBlock.transform.position = new Vector2 (transform.position.x + (-0.2f * speed), 
-		   //transform.position.y + (-0.2f * speed));
-		
-	}
-
-	
-	private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //inContactWithWall = true;
-		//bump(gameObject);
-    }
-	
-	
-	
-	
 
 	
 	void FixedUpdate()

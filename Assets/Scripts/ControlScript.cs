@@ -17,18 +17,6 @@ public class ControlScript : MonoBehaviour
 	public GameObject quitScreen;
 	public Text quitScreenTitle;
 	public GameObject quitButton;
-	
-	
-    // Start is called before the first frame update
-    void Start()
-    {
-		
-	
-		
-        
-    }
-
-
 
 
 	public void OnClickNext()

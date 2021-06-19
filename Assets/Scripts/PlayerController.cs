@@ -210,15 +210,11 @@ public class PlayerController : MonoBehaviour,IDragHandler, IPointerUpHandler, I
 
     public void Jump()
 	{	
-	
-		
-		//if (PlayerReady.PLAYER_IS_READY)
-		//{			
-			if (isGrounded)
-			{
-				rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-			}
-		//}
+			
+		if (isGrounded)
+		{
+			rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+		}
     }
 
 
