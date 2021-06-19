@@ -23,8 +23,12 @@ https://www.youtube.com/watch?v=DGl8kiGCFSI
 
 Some early screens:
 
+<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg" width="400" height="790">
 
-![](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg =250x250)
+
+
+
+![]( =250x250)
 ![Level 1](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/1.jpg)
 ![Level 2](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/2.jpg)
 ![Level 3](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/3.jpg)
