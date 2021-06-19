@@ -1,3 +1,3 @@
 # MagSlide
 
-[My image](ducksplash.github.com/MagSlide/screenshots/0.jpg)
+[My image](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg)
