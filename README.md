@@ -23,8 +23,7 @@ https://www.youtube.com/watch?v=DGl8kiGCFSI
 
 Some early screens:
 
-<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg" width="512" height="326">
-<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/1.jpg" width="512" height="326">
+<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg" width="512" height="326"> <img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/1.jpg" width="512" height="326">
 <img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/2.jpg" width="512" height="326">
 <img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/3.jpg" width="512" height="326">
 <img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/4.jpg" width="512" height="326">
