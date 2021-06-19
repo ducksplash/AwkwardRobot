@@ -14,10 +14,17 @@ Certain blocks have special abilities; blocks can rotate, be frozen in place, or
 
 A playable demo: (you will need to enable "Unknown Sources" and hit OK on a couple of Google Play Security Screens as this is not tied to a Developer Account)
 
+https://github.com/ducksplash/MagSlide/releases/tag/0.01
 
 
 Some early screens:
 
 
-![alt text](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg)
+![Title Screen](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg)
+![Level 1](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/1.jpg)
+![Level 2](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/2.jpg)
+![Level 3](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/3.jpg)
+![Level 4](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/4.jpg)
+![Level 5](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/5.jpg)
+![Level 6](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/6.jpg)
 
