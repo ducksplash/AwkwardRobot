@@ -17,6 +17,10 @@ A playable demo: (you will need to enable "Unknown Sources" and hit OK on a coup
 https://github.com/ducksplash/MagSlide/releases/tag/0.01
 
 
+Early demo video:
+
+https://www.youtube.com/watch?v=DGl8kiGCFSI
+
 Some early screens:
 
 
