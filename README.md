@@ -24,15 +24,10 @@ https://www.youtube.com/watch?v=DGl8kiGCFSI
 Some early screens:
 
 <img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg" width="512" height="326">
-
-
-
-
-![]( =250x250)
-![Level 1](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/1.jpg)
-![Level 2](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/2.jpg)
-![Level 3](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/3.jpg)
-![Level 4](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/4.jpg)
-![Level 5](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/5.jpg)
-![Level 6](https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/6.jpg)
+<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/1.jpg" width="512" height="326">
+<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/2.jpg" width="512" height="326">
+<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/3.jpg" width="512" height="326">
+<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/4.jpg" width="512" height="326">
+<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/5.jpg" width="512" height="326">
+<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/6.jpg" width="512" height="326">
 
