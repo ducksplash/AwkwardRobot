@@ -1491,7 +1491,6 @@ GameObject:
   - component: {fileID: 185785280}
   - component: {fileID: 185785278}
   - component: {fileID: 185785279}
-  - component: {fileID: 185785284}
   m_Layer: 6
   m_Name: meCube2
   m_TagString: Untagged
@@ -1556,7 +1555,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1656,24 +1655,6 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &185785284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185785276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8f6d3c6e4250e84192f5b34ce9e71bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  glowColor: {r: 1, g: 1, b: 1, a: 1}
-  glowBrightness: 2
-  outlineWidth: 8
-  alphaThreshold: 0.01
-  drawOutside: 0
-  enableInstancing: 0
 --- !u!1 &186508426
 GameObject:
   m_ObjectHideFlags: 0
@@ -14504,15 +14485,15 @@ RectTransform:
   m_GameObject: {fileID: 1309464898}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -4.8}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 1856973153}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 3, y: 3}
+  m_AnchoredPosition: {x: 0, y: 0.7023}
+  m_SizeDelta: {x: 1.6815, y: 2.7994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1309464900
 Animator:
@@ -14553,7 +14534,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6d9f2bdc989627b4885094fbb835085e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14574,7 +14555,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 2153626710036990180, guid: a6da905669256b54f98199c211641991, type: 3}
+  m_Sprite: {fileID: -8247407949599050544, guid: e55a3b147cea41a4da572e7349593fc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15163,7 +15144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369759451}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -7.56, z: 8.580002}
+  m_LocalPosition: {x: -0.3, y: -10.41, z: 8.580002}
   m_LocalScale: {x: 0.6324382, y: 0.632438, z: 0.6324381}
   m_Children: []
   m_Father: {fileID: 1856973153}
@@ -20630,6 +20611,7 @@ GameObject:
   - component: {fileID: 1856973152}
   - component: {fileID: 1856973151}
   - component: {fileID: 1856973150}
+  - component: {fileID: 1856973154}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -20650,7 +20632,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09698486, y: 0.16952515}
+  m_Offset: {x: -0.1329956, y: -0.05140686}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -20661,7 +20643,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.0895996, y: 15.63501}
+  m_Size: {x: 4.677002, y: 10.590424}
   m_EdgeRadius: 0
 --- !u!50 &1856973151
 Rigidbody2D:
@@ -20717,9 +20699,25 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 880, y: 501.7}
+  m_AnchoredPosition: {x: 886.3, y: 504.4}
   m_SizeDelta: {x: 25.355421, y: 29.009998}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!70 &1856973154
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856973149}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.027038574, y: -1.2688141}
+  m_Size: {x: 10.380615, y: 18.317474}
+  m_Direction: 0
 --- !u!1 &1864156327
 GameObject:
   m_ObjectHideFlags: 0

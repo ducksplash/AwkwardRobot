@@ -3615,7 +3615,7 @@ RectTransform:
   m_GameObject: {fileID: 277465257}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -4.8}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 1731286813}
   m_RootOrder: 1
@@ -3645,7 +3645,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6d9f2bdc989627b4885094fbb835085e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3666,7 +3666,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 2153626710036990180, guid: a6da905669256b54f98199c211641991, type: 3}
+  m_Sprite: {fileID: -8247407949599050544, guid: e55a3b147cea41a4da572e7349593fc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18041,7 +18041,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421921087}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2, y: -7.6, z: 8.580002}
+  m_LocalPosition: {x: -0.08, y: -10.97, z: 8.580002}
   m_LocalScale: {x: 0.43508404, y: 0.43508393, z: 0.43508402}
   m_Children: []
   m_Father: {fileID: 1731286813}
@@ -21207,6 +21207,7 @@ GameObject:
   - component: {fileID: 1731286809}
   - component: {fileID: 1731286810}
   - component: {fileID: 1731286808}
+  - component: {fileID: 1731286811}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -21227,7 +21228,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09698486, y: 0.16952515}
+  m_Offset: {x: 0.0501709, y: -1.750473}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -21238,7 +21239,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.0895996, y: 15.63501}
+  m_Size: {x: 5.5578613, y: 11.795013}
   m_EdgeRadius: 0
 --- !u!114 &1731286809
 MonoBehaviour:
@@ -21276,6 +21277,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!70 &1731286811
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731286807}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.046813965, y: -1.77948}
+  m_Size: {x: 10.333984, y: 18.045532}
+  m_Direction: 0
 --- !u!224 &1731286813
 RectTransform:
   m_ObjectHideFlags: 0
