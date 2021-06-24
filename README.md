@@ -1,3 +1,4 @@
+
 # MagSlide
 
 MagSlide is a basic puzzle/platformer for Android.
@@ -23,5 +24,7 @@ https://www.youtube.com/watch?v=DGl8kiGCFSI
 
 Some early screens:
 
-<img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/0.jpg" width="500" height="326"> <img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/1.jpg" width="500" height="326"><img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/2.jpg" width="500" height="326"><img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/3.jpg" width="500" height="326"><img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/5.jpg" width="500" height="326"><img src="https://media.githubusercontent.com/media/ducksplash/MagSlide/master/screenshots/6.jpg" width="500" height="326">
+![1](https://user-images.githubusercontent.com/11778864/123344384-a5736a00-d54b-11eb-87f4-f82b3f7e2aee.gif)
+![3](https://user-images.githubusercontent.com/11778864/123344396-af956880-d54b-11eb-99b7-4c68cd132b22.gif)
+![2](https://user-images.githubusercontent.com/11778864/123344448-cdfb6400-d54b-11eb-8487-b63f208ed607.gif)
 
