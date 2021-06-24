@@ -10,55 +10,134 @@ public class ControlScript : MonoBehaviour
 {
 	
 	
-	public GameObject backButton;
-	public GameObject nextButton;
+	public GameObject buttonBack;
+	public GameObject buttonNext;
 	public GameObject tutorialImageOne;
 	public GameObject tutorialImageTwo;
+	public GameObject tutorialImageThree;
+	public GameObject tutorialImageFour;
 	public GameObject quitScreen;
 	public Text quitScreenTitle;
 	public GameObject quitButton;
+	private int pageNumber = 1;
 
 
-	public void OnClickNext()
+	public void ChoosePage(int pageNumberSelected)
 	{
-		
-		backButton.GetComponent<CanvasGroup>().alpha = 1.0f;
-		backButton.GetComponent<CanvasGroup>().blocksRaycasts = true;
-		
-		
-		nextButton.GetComponent<CanvasGroup>().alpha = 0.0f;
-		nextButton.GetComponent<CanvasGroup>().blocksRaycasts = false;
-		
-		
-		tutorialImageOne.GetComponent<CanvasGroup>().alpha = 0.0f;
-		
-		
-		tutorialImageTwo.GetComponent<CanvasGroup>().alpha = 1.0f;
+		if (pageNumberSelected == 1)
+		{
+			pageNumber = pageNumber + 1;
+		}
 
-		
+		else if (pageNumberSelected == 0)
+		{
+			pageNumber = pageNumber - 1;
+		}
+
+		Debug.Log(pageNumber);
+
+		if (pageNumber == 1)
+		{
+			buttonBack.GetComponent<CanvasGroup>().alpha = 0.0f;
+			buttonBack.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+
+			buttonNext.GetComponent<CanvasGroup>().alpha = 1.0f;
+			buttonNext.GetComponent<CanvasGroup>().blocksRaycasts = true;
+
+
+
+			tutorialImageOne.GetComponent<CanvasGroup>().alpha = 1.0f;
+
+
+			tutorialImageTwo.GetComponent<CanvasGroup>().alpha = 0.0f;
+
+
+			tutorialImageThree.GetComponent<CanvasGroup>().alpha = 0.0f;
+
+
+			tutorialImageFour.GetComponent<CanvasGroup>().alpha = 0.0f;
+			tutorialImageFour.GetComponent<CanvasGroup>().blocksRaycasts = false;
+		}
+		if (pageNumber == 2)
+		{
+
+			buttonBack.GetComponent<CanvasGroup>().alpha = 1.0f;
+			buttonBack.GetComponent<CanvasGroup>().blocksRaycasts = true;
+
+
+			buttonNext.GetComponent<CanvasGroup>().alpha = 1.0f;
+			buttonNext.GetComponent<CanvasGroup>().blocksRaycasts = true;
+
+
+
+			tutorialImageOne.GetComponent<CanvasGroup>().alpha = 0.0f;
+
+
+			tutorialImageTwo.GetComponent<CanvasGroup>().alpha = 1.0f;
+
+
+			tutorialImageThree.GetComponent<CanvasGroup>().alpha = 0.0f;
+
+
+			tutorialImageFour.GetComponent<CanvasGroup>().alpha = 0.0f;
+			tutorialImageFour.GetComponent<CanvasGroup>().blocksRaycasts = false;
+		}
+		if (pageNumber == 3)
+		{
+
+
+
+			buttonBack.GetComponent<CanvasGroup>().alpha = 1.0f;
+			buttonBack.GetComponent<CanvasGroup>().blocksRaycasts = true;
+
+
+			buttonNext.GetComponent<CanvasGroup>().alpha = 1.0f;
+			buttonNext.GetComponent<CanvasGroup>().blocksRaycasts = true;
+
+
+			tutorialImageOne.GetComponent<CanvasGroup>().alpha = 0.0f;
+
+
+			tutorialImageTwo.GetComponent<CanvasGroup>().alpha = 0.0f;
+
+
+			tutorialImageThree.GetComponent<CanvasGroup>().alpha = 1.0f;
+
+			tutorialImageFour.GetComponent<CanvasGroup>().alpha = 0.0f;
+			tutorialImageFour.GetComponent<CanvasGroup>().blocksRaycasts = false;
+		}
+		if (pageNumber == 4)
+		{
+
+
+
+			buttonBack.GetComponent<CanvasGroup>().alpha = 1.0f;
+			buttonBack.GetComponent<CanvasGroup>().blocksRaycasts = true;
+
+
+			buttonNext.GetComponent<CanvasGroup>().alpha = 0.0f;
+			buttonNext.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+
+			tutorialImageOne.GetComponent<CanvasGroup>().alpha = 0.0f;
+
+
+			tutorialImageTwo.GetComponent<CanvasGroup>().alpha = 0.0f;
+
+
+			tutorialImageThree.GetComponent<CanvasGroup>().alpha = 0.0f;
+
+
+			tutorialImageFour.GetComponent<CanvasGroup>().alpha = 1.0f;
+			tutorialImageFour.GetComponent<CanvasGroup>().blocksRaycasts = true;
+		}
+
+
+
 	}
 
 
-	public void OnClickBack()
-	{
-		
-		backButton.GetComponent<CanvasGroup>().alpha = 0.0f;
-		backButton.GetComponent<CanvasGroup>().blocksRaycasts = false;
-		
-		
-		nextButton.GetComponent<CanvasGroup>().alpha = 1.0f;
-		nextButton.GetComponent<CanvasGroup>().blocksRaycasts = true;
-		
-		
-		tutorialImageOne.GetComponent<CanvasGroup>().alpha = 1.0f;
-		
-		
-		tutorialImageTwo.GetComponent<CanvasGroup>().alpha = 0.0f;
-
-		
-	}
-
-	
 	public void DoGameQuit()
 	{   
 
