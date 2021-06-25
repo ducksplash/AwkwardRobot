@@ -7411,7 +7411,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mag Slide
+  m_text: MagBot 5000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4318dc6bbc61dc84b85be86c5eabda52, type: 2}
   m_sharedMaterial: {fileID: -3789174088777199858, guid: 4318dc6bbc61dc84b85be86c5eabda52, type: 2}
