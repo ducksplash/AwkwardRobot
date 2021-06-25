@@ -466,7 +466,7 @@ GameObject:
   - component: {fileID: 81494082}
   - component: {fileID: 81494083}
   m_Layer: 5
-  m_Name: creditsButton
+  m_Name: quitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -536,10 +536,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141644413}
-        m_TargetAssemblyTypeName: StartGame, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 5
+      - m_Target: {fileID: 1461313208}
+        m_TargetAssemblyTypeName: PlayerReady, Assembly-CSharp
+        m_MethodName: endGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8507,7 +8507,7 @@ GameObject:
   - component: {fileID: 1974312990}
   - component: {fileID: 1974312989}
   m_Layer: 5
-  m_Name: creditsText
+  m_Name: quitText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8552,7 +8552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Credits
+  m_text: Quit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4318dc6bbc61dc84b85be86c5eabda52, type: 2}
   m_sharedMaterial: {fileID: -3789174088777199858, guid: 4318dc6bbc61dc84b85be86c5eabda52, type: 2}
