@@ -51,12 +51,12 @@ TagManager:
   - name: backgrounds
     uniqueID: 612073535
     locked: 0
-  - name: text
-    uniqueID: 395966489
-    locked: 0
   - name: foreground
     uniqueID: 2701525553
     locked: 0
   - name: Characters
     uniqueID: 2269897689
+    locked: 0
+  - name: UI
+    uniqueID: 4074772469
     locked: 0
