@@ -1,7 +1,7 @@
 
-# MagSlide
+# Awkward Robot
 
-MagSlide is a basic puzzle/platformer for Android.
+Awkward Robot is a basic puzzle/platformer for Android.
 
 Each level has two parts.
 
