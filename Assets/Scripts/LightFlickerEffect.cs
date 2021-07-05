@@ -37,7 +37,7 @@ public class LightFlickerEffect : MonoBehaviour {
 
 			var thisLightParent = light.transform.parent.gameObject;
 				
-			theLightMats = thisLightParent.GetComponent<Renderer>().materials;
+			//theLightMats = thisLightParent.GetComponent<Renderer>().materials;
 
 
 			var litLiteCol = light.color;
@@ -48,15 +48,15 @@ public class LightFlickerEffect : MonoBehaviour {
 
 			light.intensity = lastSum / (float)smoothQueue.Count;
 			
-			for (int i = 0; i < theLightMats.Length; i++)
-			{
+			//for (int i = 0; i < theLightMats.Length; i++)
+			//{
 			
-				if (theLightMats[i].name.Contains("bulb"))
-				{
-					theLightMats[i].SetColor("_EmissionColor", litLiteCol * (lastSum / (float)smoothQueue.Count));
-					theLightMats[i].SetColor("_Color", litLiteCol);
-				}
-			}
+			//	if (theLightMats[i].name.Contains("bulb"))
+		//		{
+			//		theLightMats[i].SetColor("_EmissionColor", litLiteCol * (lastSum / (float)smoothQueue.Count));
+			//		theLightMats[i].SetColor("_Color", litLiteCol);
+			//	}
+			//}
 		
     }
 
