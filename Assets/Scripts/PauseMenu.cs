@@ -51,7 +51,7 @@ public class PauseMenu : MonoBehaviour
 	
 	void OnTriggerEnter2D(Collider2D other)
 	{ 
-		if (other.name.Contains("Player"))
+		if (other.name.Contains("Player") && PlayerReady.PLAYER_IS_READY)
 		{
 			playerDead = true;
 			DoRetry();
