@@ -149,6 +149,7 @@ PlayerSettings:
   androidMaxAspectRatio: 16.9
   applicationIdentifier:
     Android: com.duckSPLASH.AwkwardRobot
+    Standalone: com.duckSPLASH.AwkwardRobot
   buildNumber:
     Standalone: 0
     iPhone: 0
