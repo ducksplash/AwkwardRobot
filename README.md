@@ -13,9 +13,7 @@ If you made a mistake, you can hit 'Retry'; you get 3 retries.
 
 Certain blocks have special abilities; blocks can rotate, be frozen in place, or destroyed. 
 
-A playable demo: (you will need to enable "Unknown Sources" and hit OK on a couple of Google Play Security Screens as this is not tied to a Developer Account)
-
-https://github.com/ducksplash/MagSlide/releases/tag/0.01
+This is available on <a href="https://play.google.com/store/apps/details?id=com.duckSPLASH.AwkwardRobot">Google Play</a>.
 
 
 Early demo video:
