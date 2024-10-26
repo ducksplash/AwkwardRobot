@@ -42,10 +42,11 @@ public class PlayerController : MonoBehaviour,IDragHandler, IPointerUpHandler, I
 	private float joyY;
 	
 	public Animator playerAnimator;
-	
-	
-	
-    void Start()
+	private static readonly int PlayerWalk = Animator.StringToHash("playerWalk");
+	private static readonly int PlayerIdle = Animator.StringToHash("playerIdle");
+
+
+	void Start()
     {
         rb = thePlayer.GetComponent<Rigidbody2D>();
         thePlayerBoxCollider = thePlayer.GetComponent<BoxCollider2D>();
@@ -178,11 +179,11 @@ public class PlayerController : MonoBehaviour,IDragHandler, IPointerUpHandler, I
 			
 			if (rb.velocity.x != 0)
 			{
-				playerAnimator.SetTrigger("playerWalk");
+				playerAnimator.SetTrigger(PlayerWalk);
 			}
 			else
 			{
-				playerAnimator.SetTrigger("playerIdle");
+				playerAnimator.SetTrigger(PlayerIdle);
 			}
 			
 
@@ -193,7 +194,7 @@ public class PlayerController : MonoBehaviour,IDragHandler, IPointerUpHandler, I
 							
 				if (moveBy < 0)
 				{
-					thisSpriteScale.x = thisSpriteScale.x;
+					//thisSpriteScale.x = thisSpriteScale.x;
 				}
 				
 				else if (moveBy > 0) 
