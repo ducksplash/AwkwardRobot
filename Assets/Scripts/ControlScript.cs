@@ -168,7 +168,8 @@ public class ControlScript : MonoBehaviour
 		quitButton.GetComponent<CanvasGroup>().blocksRaycasts = true;
 
 
-		if (Time.timeScale == 1)
+		double TOLERANCE = 0.05f;
+		if (Math.Abs(Time.timeScale - 1) < TOLERANCE)
 		{
 			Time.timeScale = 0;
 		}

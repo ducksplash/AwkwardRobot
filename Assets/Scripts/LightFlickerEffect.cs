@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class LightFlickerEffect : MonoBehaviour {
 	
-    private Light light;
+    private Light thisLight;
     private Material[] theLightMats;
 	
     public float minIntensity = 0f;
@@ -23,41 +23,22 @@ public class LightFlickerEffect : MonoBehaviour {
 
     void Start() {
 		
-		light = gameObject.GetComponent<Light>();
-		
+	    thisLight = gameObject.GetComponent<Light>();
          smoothQueue = new Queue<float>(smoothing);
     }
 
-    void Update()
+    void LateUpdate()
 	{
-
-			while (smoothQueue.Count >= smoothing) {
-				lastSum -= smoothQueue.Dequeue();
-			}
-
-			var thisLightParent = light.transform.parent.gameObject;
-				
-			//theLightMats = thisLightParent.GetComponent<Renderer>().materials;
-
-
-			var litLiteCol = light.color;
-
-			float newVal = Random.Range(minIntensity, maxIntensity);
-			smoothQueue.Enqueue(newVal);
-			lastSum += newVal;
-
-			light.intensity = lastSum / (float)smoothQueue.Count;
-			
-			//for (int i = 0; i < theLightMats.Length; i++)
-			//{
-			
-			//	if (theLightMats[i].name.Contains("bulb"))
-		//		{
-			//		theLightMats[i].SetColor("_EmissionColor", litLiteCol * (lastSum / (float)smoothQueue.Count));
-			//		theLightMats[i].SetColor("_Color", litLiteCol);
-			//	}
-			//}
+		while (smoothQueue.Count >= smoothing) 
+		{
+			lastSum -= smoothQueue.Dequeue();
+		}
 		
+		float newVal = Random.Range(minIntensity, maxIntensity);
+		smoothQueue.Enqueue(newVal);
+		lastSum += newVal;
+
+		thisLight.intensity = lastSum / smoothQueue.Count;
     }
 
 }
