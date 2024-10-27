@@ -16,6 +16,10 @@ public class ControlScript : MonoBehaviour
 	public GameObject tutorialImageTwo;
 	public GameObject tutorialImageThree;
 	public GameObject tutorialImageFour;
+	public PlayVideo tutorialVideoOne;
+	public PlayVideo tutorialVideoTwo;
+	public PlayVideo tutorialVideoThree;
+	public PlayVideo tutorialVideoFour;
 	public GameObject quitScreen;
 	public Text quitScreenTitle;
 	public GameObject quitButton;
@@ -58,6 +62,10 @@ public class ControlScript : MonoBehaviour
 
 			tutorialImageFour.GetComponent<CanvasGroup>().alpha = 0.0f;
 			tutorialImageFour.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+			StopAllVideos();
+			tutorialVideoOne.selectedVideo = TutorialVideo.one;
+			tutorialVideoOne.PlayTheVideo();
 		}
 		if (pageNumber == 2)
 		{
@@ -82,6 +90,10 @@ public class ControlScript : MonoBehaviour
 
 			tutorialImageFour.GetComponent<CanvasGroup>().alpha = 0.0f;
 			tutorialImageFour.GetComponent<CanvasGroup>().blocksRaycasts = false;
+			
+			StopAllVideos();
+			tutorialVideoTwo.selectedVideo = TutorialVideo.two;
+			tutorialVideoTwo.PlayTheVideo();
 		}
 		if (pageNumber == 3)
 		{
@@ -106,6 +118,10 @@ public class ControlScript : MonoBehaviour
 
 			tutorialImageFour.GetComponent<CanvasGroup>().alpha = 0.0f;
 			tutorialImageFour.GetComponent<CanvasGroup>().blocksRaycasts = false;
+			
+			StopAllVideos();
+			tutorialVideoThree.selectedVideo = TutorialVideo.three;
+			tutorialVideoThree.PlayTheVideo();
 		}
 		if (pageNumber == 4)
 		{
@@ -131,12 +147,24 @@ public class ControlScript : MonoBehaviour
 
 			tutorialImageFour.GetComponent<CanvasGroup>().alpha = 1.0f;
 			tutorialImageFour.GetComponent<CanvasGroup>().blocksRaycasts = true;
+			
+			StopAllVideos();
+			tutorialVideoFour.selectedVideo = TutorialVideo.four;
+			tutorialVideoFour.PlayTheVideo();
 		}
-
 
 
 	}
 
+
+		private void StopAllVideos()
+		{
+			
+			tutorialVideoOne.StopTheVideo();
+			tutorialVideoTwo.StopTheVideo();
+			tutorialVideoThree.StopTheVideo();
+			tutorialVideoFour.StopTheVideo();
+		}
 
 	public void DoGameQuit()
 	{   

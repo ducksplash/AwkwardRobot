@@ -57,10 +57,11 @@ public class PlayerReady : MonoBehaviour
             PlayerStats.PLAYER_SELECTEDSPEED = PlayerStats.PLAYER_PHONESPEED;
 			
 			
-			touchControls.GetComponent<CanvasGroup>().alpha = 1.0f;
-			touchControls.GetComponent<CanvasGroup>().blocksRaycasts = true;
         }
-		
+	
+        // bring these out for web gl build
+		touchControls.GetComponent<CanvasGroup>().alpha = 1.0f;
+		touchControls.GetComponent<CanvasGroup>().blocksRaycasts = true;
 	
 		
 		PLAYER_IS_READY = true;
